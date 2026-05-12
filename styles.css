@@ -950,10 +950,9 @@ footer {
   }
   nav.menu-open .nav-cta {
     display: block;
-    position: fixed;
-    top: 65px; left: 0; right: 0;
-    margin-top: 200px;
-    border-radius: 0;
+    position: relative;
+    margin-top: 8px;
+    border-radius: 100px;
     text-align: center;
   }
   .how-grid, .pricing-grid, .testimonials-grid { grid-template-columns: 1fr; }
