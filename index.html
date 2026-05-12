@@ -1,335 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Homie — AI Video Production for Real Estate</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
-<!-- ─── NAV ─── -->
-<nav id="navbar">
-  <a href="#" class="nav-logo">Homie<span>.</span></a>
-  <ul class="nav-links">
-    <li><a href="#how">How it works</a></li>
-    <li><a href="#videos">Our Work</a></li>
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#clients">Clients</a></li>
-    <li><a href="#faq">FAQ</a></li>
-  </ul>
-  <a href="#" class="nav-cta" onclick="openModal()">Get Started</a>
-  <div class="nav-hamburger" onclick="toggleMenu()" id="hamburger">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">Homie<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#videos">Our Work</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <!--<li><a href="#clients">Clients</a></li> -->
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <a href="#" class="nav-cta" onclick="openModal()">Get Started</a>
+    <div class="nav-hamburger" onclick="toggleMenu()" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
 
-<!-- ─── HERO ─── -->
-<section id="hero">
-  <div class="hero-content">
-    <div class="hero-tag">
-      <span class="dot"></span>
-      AI-powered real estate video production
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        AI-powered real estate video production
+      </div>
+      <h1 class="hero-h1">
+        Sell homes faster<br>with <em>cinematic</em><br>video content.
+      </h1>
+      <p class="hero-sub">
+        Homie creates stunning property reels and AI video tours that make listings stand out. Built for realtors who
+        want to close deals, not edit videos.
+      </p>
+      <div class="hero-btns">
+        <a href="#" class="btn-primary" onclick="openModal()">
+          Get your first reel
+          <span>→</span>
+        </a>
+        <a href="#videos" class="btn-secondary">
+          <span class="play-icon">▶</span>
+          See our work
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">300+</div>
+          <div class="hero-stat-label">Reels produced</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">48h</div>
+          <div class="hero-stat-label">Delivery time</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">98%</div>
+          <div class="hero-stat-label">Client satisfaction</div>
+        </div>
+      </div>
     </div>
-    <h1 class="hero-h1">
-      Sell homes faster<br>with <em>cinematic</em><br>video content.
-    </h1>
-    <p class="hero-sub">
-      Homie creates stunning property reels and AI video tours that make listings stand out. Built for realtors who want to close deals, not edit videos.
-    </p>
-    <div class="hero-btns">
-      <a href="#" class="btn-primary" onclick="openModal()">
-        Get your first reel
-        <span>→</span>
-      </a>
-      <a href="#videos" class="btn-secondary">
-        <span class="play-icon">▶</span>
-        See our work
-      </a>
+
+    <div class="hero-visual">
+      <div class="hero-img-wrap">
+        <!-- Replace src with a real property hero image -->
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop"
+          alt="Luxury property" />
+        <div class="hero-pill">✦ Delivered in 48h</div>
+        <div class="hero-badge">
+          <div class="hero-badge-icon">🎬</div>
+          <div class="hero-badge-text">
+            <strong>Property Tour</strong>
+            Malibu, CA · 4 bed · $2.4M
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="hero-stats">
+  </section>
+
+  <!-- ─── TRUST BAR ─── -->
+  <div class="trust-bar">
+    <div class="trust-item"><span>⚡</span> Delivery in 48 hours</div>
+    <div class="trust-item"><span>🔁</span> 2 free revisions included</div>
+    <div class="trust-item"><span>📱</span> Optimized for Instagram & TikTok</div>
+    <div class="trust-item"><span>🎯</span> No contract required</div>
+    <div class="trust-item"><span>🏆</span> Licensed background music</div>
+  </div>
+
+  <!-- ─── HOW IT WORKS ─── -->
+  <section id="how">
+    <div class="section-label">Simple process</div>
+    <h2 class="section-title">From listing to viral reel<br>in 3 easy steps.</h2>
+    <p class="section-sub">No editing skills, no expensive equipment. Just send us the property and we handle everything
+      else.</p>
+
+    <div class="how-grid">
+      <div class="how-card fade-up">
+        <span class="how-num">01</span>
+        <div class="how-icon">📋</div>
+        <h3>Share the property</h3>
+        <p>Send us the listing address, photos, and any key features you want to highlight. A quick form, takes 5
+          minutes.</p>
+      </div>
+      <div class="how-card fade-up" style="transition-delay:0.1s">
+        <span class="how-num">02</span>
+        <div class="how-icon">🎬</div>
+        <h3>We produce the video</h3>
+        <p>Our AI-powered team crafts a cinematic reel with professional narration, music, and branded visuals —
+          tailored to your market.</p>
+      </div>
+      <div class="how-card fade-up" style="transition-delay:0.2s">
+        <span class="how-num">03</span>
+        <div class="how-icon">🚀</div>
+        <h3>Publish & close faster</h3>
+        <p>Receive your video within 48 hours, ready to post on Instagram, TikTok, Zillow, or your website. Listings
+          with video sell 73% faster.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── VIDEOS ─── -->
+  <section id="videos">
+    <div class="videos-header">
       <div>
-        <div class="hero-stat-num">300+</div>
-        <div class="hero-stat-label">Reels produced</div>
+        <div class="section-label">Our work</div>
+        <h2 class="section-title">Reels that make<br>buyers stop scrolling.</h2>
       </div>
-      <div>
-        <div class="hero-stat-num">48h</div>
-        <div class="hero-stat-label">Delivery time</div>
-      </div>
-      <div>
-        <div class="hero-stat-num">98%</div>
-        <div class="hero-stat-label">Client satisfaction</div>
-      </div>
+      <a href="#pricing" class="btn-primary">Get yours →</a>
     </div>
-  </div>
 
-  <div class="hero-visual">
-    <div class="hero-img-wrap">
-      <!-- Replace src with a real property hero image -->
-      <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop" alt="Luxury property" />
-      <div class="hero-pill">✦ Delivered in 48h</div>
-      <div class="hero-badge">
-        <div class="hero-badge-icon">🎬</div>
-        <div class="hero-badge-text">
-          <strong>Property Tour</strong>
-          Malibu, CA · 4 bed · $2.4M
+    <!-- Property Tour Carousel -->
+    <div class="carousel-block">
+      <h3 class="carousel-title">🏡 Property Tour</h3>
+      <div class="carousel">
+        <div class="video-card">
+          <div class="video-thumb video-thumb-wide">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&auto=format&fit=crop"
+              alt="Property tour" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Modern Estate — Beverly Hills, CA</h4>
+            <p>5 bed · 4 bath · $4.2M</p>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ─── TRUST BAR ─── -->
-<div class="trust-bar">
-  <div class="trust-item"><span>⚡</span> Delivery in 48 hours</div>
-  <div class="trust-item"><span>🔁</span> 2 free revisions included</div>
-  <div class="trust-item"><span>📱</span> Optimized for Instagram & TikTok</div>
-  <div class="trust-item"><span>🎯</span> No contract required</div>
-  <div class="trust-item"><span>🏆</span> Licensed background music</div>
-</div>
-
-<!-- ─── HOW IT WORKS ─── -->
-<section id="how">
-  <div class="section-label">Simple process</div>
-  <h2 class="section-title">From listing to viral reel<br>in 3 easy steps.</h2>
-  <p class="section-sub">No editing skills, no expensive equipment. Just send us the property and we handle everything else.</p>
-
-  <div class="how-grid">
-    <div class="how-card fade-up">
-      <span class="how-num">01</span>
-      <div class="how-icon">📋</div>
-      <h3>Share the property</h3>
-      <p>Send us the listing address, photos, and any key features you want to highlight. A quick form, takes 5 minutes.</p>
-    </div>
-    <div class="how-card fade-up" style="transition-delay:0.1s">
-      <span class="how-num">02</span>
-      <div class="how-icon">🎬</div>
-      <h3>We produce the video</h3>
-      <p>Our AI-powered team crafts a cinematic reel with professional narration, music, and branded visuals — tailored to your market.</p>
-    </div>
-    <div class="how-card fade-up" style="transition-delay:0.2s">
-      <span class="how-num">03</span>
-      <div class="how-icon">🚀</div>
-      <h3>Publish & close faster</h3>
-      <p>Receive your video within 48 hours, ready to post on Instagram, TikTok, Zillow, or your website. Listings with video sell 73% faster.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ─── VIDEOS ─── -->
-<section id="videos">
-  <div class="videos-header">
-    <div>
-      <div class="section-label">Our work</div>
-      <h2 class="section-title">Reels that make<br>buyers stop scrolling.</h2>
-    </div>
-    <a href="#pricing" class="btn-primary">Get yours →</a>
-  </div>
-
-  <!-- Property Tour Carousel -->
-  <div class="carousel-block">
-    <h3 class="carousel-title">🏡 Property Tour</h3>
-    <div class="carousel">
-      <div class="video-card">
-        <div class="video-thumb video-thumb-wide">
-          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&auto=format&fit=crop" alt="Property tour" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
+        <div class="video-card">
+          <div class="video-thumb video-thumb-wide">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop"
+              alt="Property tour" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Luxury Villa — Malibu, CA</h4>
+            <p>4 bed · 3 bath · $2.4M</p>
+          </div>
         </div>
-        <div class="video-info">
-          <span class="video-type">Property Tour</span>
-          <h4>Modern Estate — Beverly Hills, CA</h4>
-          <p>5 bed · 4 bath · $4.2M</p>
-        </div>
-      </div>
-      <div class="video-card">
-        <div class="video-thumb video-thumb-wide">
-          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop" alt="Property tour" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
-        </div>
-        <div class="video-info">
-          <span class="video-type">Property Tour</span>
-          <h4>Luxury Villa — Malibu, CA</h4>
-          <p>4 bed · 3 bath · $2.4M</p>
-        </div>
-      </div>
-      <div class="video-card">
-          <iframe 
-            src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW"
-            title="YouTube video player"
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           </iframe>
-        <div class="video-info">
-          <span class="video-type">Property Tour</span>
-          <h4>Penthouse — Miami, FL</h4>
-          <p>2 bed · 2 bath · $1.1M</p>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Penthouse — Miami, FL</h4>
+            <p>2 bed · 2 bath · $1.1M</p>
+          </div>
         </div>
-      </div>
-      <div class="video-card">
-        <div class="video-thumb video-thumb-wide">
-          <img src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW" alt="Property tour" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
-        </div>
-        <div class="video-info">
-          <span class="video-type">Property Tour</span>
-          <h4>Cozy Bungalow — Austin, TX</h4>
-          <p>3 bed · 2 bath · $680K</p>
+        <div class="video-card">
+          <div class="video-thumb video-thumb-wide">
+            <img src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW" alt="Property tour" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Cozy Bungalow — Austin, TX</h4>
+            <p>3 bed · 2 bath · $680K</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Video Reel Carousel -->
-  <div class="carousel-block">
-    <h3 class="carousel-title">🎞️ Video Reel</h3>
-    <div class="carousel carousel-reels">
-      <div class="video-card">
-        <div class="video-thumb">
-          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=500&auto=format&fit=crop" alt="Reel" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
+    <!-- Video Reel Carousel -->
+    <div class="carousel-block">
+      <h3 class="carousel-title">🎞️ Video Reel</h3>
+      <div class="carousel carousel-reels">
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=500&auto=format&fit=crop"
+              alt="Reel" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Cozy Bungalow · Austin, TX</h4>
+            <p>3 bed · 2 bath · $680K</p>
+          </div>
         </div>
-        <div class="video-info">
-          <span class="video-type">Video Reel</span>
-          <h4>Cozy Bungalow · Austin, TX</h4>
-          <p>3 bed · 2 bath · $680K</p>
-        </div>
-      </div>
-      <div class="video-card">
+        <div class="video-card">
           <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" allowfullscreen></iframe>
-        <div class="video-info">
-          <span class="video-type">Video Reel</span>
-          <h4>Penthouse · Miami, FL</h4>
-          <p>2 bed · 2 bath · $1.1M</p>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Penthouse · Miami, FL</h4>
+            <p>2 bed · 2 bath · $1.1M</p>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop"
+              alt="Reel" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Modern Estate · Beverly Hills, CA</h4>
+            <p>5 bed · 4 bath · $4.2M</p>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&auto=format&fit=crop"
+              alt="Reel" />
+            <div class="video-overlay">
+              <div class="play-btn">▶</div>
+            </div>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Luxury Villa · Malibu, CA</h4>
+            <p>4 bed · 3 bath · $2.4M</p>
+          </div>
         </div>
       </div>
-      <div class="video-card">
-        <div class="video-thumb">
-          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop" alt="Reel" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
-        </div>
-        <div class="video-info">
-          <span class="video-type">Video Reel</span>
-          <h4>Modern Estate · Beverly Hills, CA</h4>
-          <p>5 bed · 4 bath · $4.2M</p>
-        </div>
+    </div>
+  </section>
+
+  <!-- ─── STATS ─── -->
+  <section id="stats">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <div class="stat-num">300<span>+</span></div>
+        <div class="stat-label">Reels delivered</div>
       </div>
-      <div class="video-card">
-        <div class="video-thumb">
-          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&auto=format&fit=crop" alt="Reel" />
-          <div class="video-overlay"><div class="play-btn">▶</div></div>
-        </div>
-        <div class="video-info">
-          <span class="video-type">Video Reel</span>
-          <h4>Luxury Villa · Malibu, CA</h4>
-          <p>4 bed · 3 bath · $2.4M</p>
-        </div>
+      <div class="stat-item fade-up" style="transition-delay:0.1s">
+        <div class="stat-num">48<span>h</span></div>
+        <div class="stat-label">Average turnaround</div>
+      </div>
+      <div class="stat-item fade-up" style="transition-delay:0.2s">
+        <div class="stat-num">73<span>%</span></div>
+        <div class="stat-label">Faster sales with video</div>
+      </div>
+      <div class="stat-item fade-up" style="transition-delay:0.3s">
+        <div class="stat-num">12<span>+</span></div>
+        <div class="stat-label">States across the USA</div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ─── STATS ─── -->
-<section id="stats">
-  <div class="stats-grid">
-    <div class="stat-item fade-up">
-      <div class="stat-num">300<span>+</span></div>
-      <div class="stat-label">Reels delivered</div>
-    </div>
-    <div class="stat-item fade-up" style="transition-delay:0.1s">
-      <div class="stat-num">48<span>h</span></div>
-      <div class="stat-label">Average turnaround</div>
-    </div>
-    <div class="stat-item fade-up" style="transition-delay:0.2s">
-      <div class="stat-num">73<span>%</span></div>
-      <div class="stat-label">Faster sales with video</div>
-    </div>
-    <div class="stat-item fade-up" style="transition-delay:0.3s">
-      <div class="stat-num">12<span>+</span></div>
-      <div class="stat-label">States across the USA</div>
-    </div>
-  </div>
-</section>
-
-<!-- ─── PRICING ─── -->
-<section id="pricing">
-  <div class="pricing-header">
-    <div class="section-label">Pricing</div>
-    <h2 class="section-title">Simple, transparent pricing.</h2>
-    <p class="section-sub" style="margin:0 auto; text-align:center;">No subscriptions. No hidden fees. Pay per video and own it forever.</p>
-  </div>
-
-  <div class="pricing-grid">
-    <!-- Video Reel -->
-    <div class="price-card fade-up">
-      <div class="plan-icon">🎞️</div>
-      <div class="plan-name">Video Reel</div>
-      <div class="plan-price"><sub>$</sub>250</div>
-      <div class="plan-freq">per video</div>
-      <hr class="plan-divider">
-      <ul class="plan-features">
-        <li><span class="check">✓</span> 30–60 second reel</li>
-        <li><span class="check">✓</span> AI-generated voiceover</li>
-        <li><span class="check">✓</span> Licensed background music</li>
-        <li><span class="check">✓</span> Optimized for Instagram & TikTok</li>
-        <li><span class="check">✓</span> 2 revisions included</li>
-        <li><span class="check">✓</span> Delivered in 48 hours</li>
-      </ul>
-      <button class="plan-cta" onclick="openModal('Video Reel – $250')">Get this plan</button>
+  <!-- ─── PRICING ─── -->
+  <section id="pricing">
+    <div class="pricing-header">
+      <div class="section-label">Pricing</div>
+      <h2 class="section-title">Simple, transparent pricing.</h2>
+      <p class="section-sub" style="margin:0 auto; text-align:center;">No subscriptions. No hidden fees. Pay per video
+        and own it forever.</p>
     </div>
 
-    <!-- Property Tour — FEATURED -->
-    <div class="price-card featured-plan fade-up" style="transition-delay:0.1s">
-      <span class="plan-badge">✦ Most Popular</span>
-      <div class="plan-icon">🏡</div>
-      <div class="plan-name">Property Tour</div>
-      <div class="plan-price"><sub>$</sub>350</div>
-      <div class="plan-freq">per property</div>
-      <hr class="plan-divider">
-      <ul class="plan-features">
-        <li><span class="check">✓</span> Full property walkthrough reel</li>
-        <li><span class="check">✓</span> Professional narration script</li>
-        <li><span class="check">✓</span> Custom branded intro & outro</li>
-        <li><span class="check">✓</span> Neighborhood highlights</li>
-        <li><span class="check">✓</span> MLS & Zillow ready format</li>
-        <li><span class="check">✓</span> 3 revisions included</li>
-        <li><span class="check">✓</span> Delivered in 48 hours</li>
-      </ul>
-      <button class="plan-cta" onclick="openModal('Property Tour - $350')">Get this plan</button>
+    <div class="pricing-grid">
+      <!-- Video Reel -->
+      <div class="price-card fade-up">
+        <div class="plan-icon">🎞️</div>
+        <div class="plan-name">Video Reel</div>
+        <div class="plan-price"><sub>$</sub>250</div>
+        <div class="plan-freq">per video</div>
+        <hr class="plan-divider">
+        <ul class="plan-features">
+          <li><span class="check">✓</span> 30–60 second reel</li>
+          <li><span class="check">✓</span> AI-generated voiceover</li>
+          <li><span class="check">✓</span> Licensed background music</li>
+          <li><span class="check">✓</span> Optimized for Instagram & TikTok</li>
+          <li><span class="check">✓</span> 2 revisions included</li>
+          <li><span class="check">✓</span> Delivered in 48 hours</li>
+        </ul>
+        <button class="plan-cta" onclick="openModal('Video Reel – $250')">Get this plan</button>
+      </div>
+
+      <!-- Property Tour — FEATURED -->
+      <div class="price-card featured-plan fade-up" style="transition-delay:0.1s">
+        <span class="plan-badge">✦ Most Popular</span>
+        <div class="plan-icon">🏡</div>
+        <div class="plan-name">Property Tour</div>
+        <div class="plan-price"><sub>$</sub>350</div>
+        <div class="plan-freq">per property</div>
+        <hr class="plan-divider">
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Full property walkthrough reel</li>
+          <li><span class="check">✓</span> Professional narration script</li>
+          <li><span class="check">✓</span> Custom branded intro & outro</li>
+          <li><span class="check">✓</span> Neighborhood highlights</li>
+          <li><span class="check">✓</span> MLS & Zillow ready format</li>
+          <li><span class="check">✓</span> 3 revisions included</li>
+          <li><span class="check">✓</span> Delivered in 48 hours</li>
+        </ul>
+        <button class="plan-cta" onclick="openModal('Property Tour - $350')">Get this plan</button>
+      </div>
+
+      <!-- Bundle -->
+      <div class="price-card fade-up" style="transition-delay:0.2s">
+        <div class="plan-icon">🎯</div>
+        <div class="plan-name">Bundle</div>
+        <div class="plan-price"><sub>$</sub>500</div>
+        <div class="plan-freq">property tour + video reel</div>
+        <hr class="plan-divider">
+        <ul class="plan-features">
+          <li><span class="check">✓</span> Everything in Property Tour</li>
+          <li><span class="check">✓</span> Everything in Video Reel</li>
+          <li><span class="check">✓</span> Save $100 vs buying separate</li>
+          <li><span class="check">✓</span> Priority production queue</li>
+          <li><span class="check">✓</span> Dedicated account manager</li>
+          <li><span class="check">✓</span> Unlimited revisions</li>
+          <li><span class="check">✓</span> Delivered in 36 hours</li>
+        </ul>
+        <button class="plan-cta" onclick="openModal('Bundle – $500')">Get this plan</button>
+      </div>
     </div>
 
-    <!-- Bundle -->
-    <div class="price-card fade-up" style="transition-delay:0.2s">
-      <div class="plan-icon">🎯</div>
-      <div class="plan-name">Bundle</div>
-      <div class="plan-price"><sub>$</sub>500</div>
-      <div class="plan-freq">property tour + video reel</div>
-      <hr class="plan-divider">
-      <ul class="plan-features">
-        <li><span class="check">✓</span> Everything in Property Tour</li>
-        <li><span class="check">✓</span> Everything in Video Reel</li>
-        <li><span class="check">✓</span> Save $100 vs buying separate</li>
-        <li><span class="check">✓</span> Priority production queue</li>
-        <li><span class="check">✓</span> Dedicated account manager</li>
-        <li><span class="check">✓</span> Unlimited revisions</li>
-        <li><span class="check">✓</span> Delivered in 36 hours</li>
-      </ul>
-      <button class="plan-cta" onclick="openModal('Bundle – $500')">Get this plan</button>
-    </div>
-  </div>
+    <p class="pricing-note">
+      All plans include full commercial rights. Have more than 5 properties/month?
+      <a href="#" onclick="openModal()" style="color:var(--black); font-weight:600;">Contact us for agency pricing.</a>
+    </p>
+  </section>
 
-  <p class="pricing-note">
-    All plans include full commercial rights. Have more than 5 properties/month?
-    <a href="#" onclick="openModal()" style="color:var(--black); font-weight:600;">Contact us for agency pricing.</a>
-  </p>
-</section>
-
-<!-- ─── CLIENTS ─── -->
-<!--<section id="clients">
+  <!-- ─── CLIENTS ─── -->
+  <!--<section id="clients">
   <div class="clients-header">
     <div class="section-label">Testimonials</div>
     <h2 class="section-title">Realtors love Homie.</h2>
@@ -378,130 +403,141 @@
   </div>
 </section>-->
 
-<!-- ─── FAQ ─── -->
-<section id="faq">
-  <div class="faq-inner">
-    <div class="faq-header">
-      <div class="section-label">Questions</div>
-      <h2 class="section-title">Everything you need to know.</h2>
-    </div>
+  <!-- ─── FAQ ─── -->
+  <section id="faq">
+    <div class="faq-inner">
+      <div class="faq-header">
+        <div class="section-label">Questions</div>
+        <h2 class="section-title">Everything you need to know.</h2>
+      </div>
 
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)">
-        What do I need to provide to get started?
-        <span class="faq-icon">+</span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Just fill out our quick order form with the property address, listing price, key highlights, and any photos or footage you already have. We'll handle the rest — script, narration, editing, music, and delivery. No technical skills required.</div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What do I need to provide to get started?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">Just fill out our quick order form with the property address, listing price, key
+            highlights, and any photos or footage you already have. We'll handle the rest — script, narration, editing,
+            music, and delivery. No technical skills required.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How long does the video production take?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">Standard delivery is within 48 hours. If you order the Bundle, you get priority
+            production with a 36-hour turnaround. Rush delivery (24 hours) is available for an additional fee — just
+            mention it in the order notes.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Can I request changes after I receive the video?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">Absolutely. The Video Reel or Property tour includes 2 revisions. We want you to be
+            100% happy with the final product before you publish.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          What formats do you deliver and where can I use the video?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">You receive the video in MP4 format optimized for vertical (9:16 for reels) and
+            horizontal (16:9 for MLS/Zillow). You get full commercial rights and can publish anywhere: Instagram,
+            TikTok, YouTube, Zillow, Realtor.com, your website, or email campaigns.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Do you work with agents across all of the US?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">
+          <div class="faq-a-inner">Yes! Homie is 100% remote and we work with realtors across all 50 states. Our
+            AI-powered production process means geography is no barrier. We currently serve active agents in California,
+            Texas, Florida, New York, Nevada, and 10+ more states.</div>
+        </div>
       </div>
     </div>
+  </section>
 
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)">
-        How long does the video production take?
-        <span class="faq-icon">+</span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Standard delivery is within 48 hours. If you order the Bundle, you get priority production with a 36-hour turnaround. Rush delivery (24 hours) is available for an additional fee — just mention it in the order notes.</div>
+  <!-- ─── CTA ─── -->
+  <section id="cta">
+    <div class="cta-inner">
+      <span class="cta-tag">Ready to grow?</span>
+      <h2>Your next listing deserves<br><em>cinematic</em> video.</h2>
+      <p>Join 300+ realtors who use Homie to close faster, impress clients, and stand out in any market.</p>
+      <div class="cta-form">
+        <input type="email" class="cta-input" placeholder="your@email.com" id="cta-email" />
+        <button class="btn-gold" onclick="openModalFromEmail()">Get started →</button>
       </div>
+      <p class="cta-note">No commitment. First video delivered in 48 hours.</p>
     </div>
+  </section>
 
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)">
-        Can I request changes after I receive the video?
-        <span class="faq-icon">+</span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Absolutely. The Video Reel or Property tour includes 2 revisions. We want you to be 100% happy with the final product before you publish.</div>
-      </div>
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <a href="#" class="footer-logo">Homie<span>.</span></a>
+    <div class="footer-links">
+      <a href="#how">How it works</a>
+      <a href="#videos">Our Work</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#clients">Clients</a>
+      <a href="#faq">FAQ</a>
+      <a href="#" onclick="openModal()">Contact</a>
     </div>
+    <div class="footer-copy">© 2025 Homie. All rights reserved.</div>
+  </footer>
 
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)">
-        What formats do you deliver and where can I use the video?
-        <span class="faq-icon">+</span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">You receive the video in MP4 format optimized for vertical (9:16 for reels) and horizontal (16:9 for MLS/Zillow). You get full commercial rights and can publish anywhere: Instagram, TikTok, YouTube, Zillow, Realtor.com, your website, or email campaigns.</div>
+  <!-- ─── MODAL ─── -->
+  <div class="modal-overlay" id="modal" onclick="closeModalOutside(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <h3>Let's make your reel.</h3>
+      <p>Tell us about your property and we'll get back to you within a few hours with everything you need to get
+        started.</p>
+      <div class="modal-field">
+        <label>YOUR NAME</label>
+        <input type="text" placeholder="Sarah Johnson" />
       </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q" onclick="toggleFaq(this)">
-        Do you work with agents across all of the US?
-        <span class="faq-icon">+</span>
-      </button>
-      <div class="faq-a">
-        <div class="faq-a-inner">Yes! Homie is 100% remote and we work with realtors across all 50 states. Our AI-powered production process means geography is no barrier. We currently serve active agents in California, Texas, Florida, New York, Nevada, and 10+ more states.</div>
+      <div class="modal-field">
+        <label>EMAIL</label>
+        <input type="email" placeholder="sarah@realty.com" id="modal-email" />
       </div>
+      <div class="modal-field">
+        <label>PHONE (OPTIONAL)</label>
+        <input type="tel" placeholder="+1 (555) 000-0000" />
+      </div>
+      <div class="modal-field">
+        <label>PLAN INTERESTED IN</label>
+        <select id="modal-plan">
+          <option>Video Reel – $250</option>
+          <option>Property Tour – $350</option>
+          <option>Bundle – $500</option>
+          <option>Not sure yet</option>
+        </select>
+      </div>
+      <div class="modal-field">
+        <label>PROPERTY ADDRESS OR NOTES</label>
+        <textarea placeholder="123 Sunset Blvd, Los Angeles, CA 90028 · 4 bed, 3 bath, $1.2M"></textarea>
+      </div>
+      <button class="modal-submit" onclick="submitModal()">Send my request →</button>
     </div>
   </div>
-</section>
 
-<!-- ─── CTA ─── -->
-<section id="cta">
-  <div class="cta-inner">
-    <span class="cta-tag">Ready to grow?</span>
-    <h2>Your next listing deserves<br><em>cinematic</em> video.</h2>
-    <p>Join 300+ realtors who use Homie to close faster, impress clients, and stand out in any market.</p>
-    <div class="cta-form">
-      <input type="email" class="cta-input" placeholder="your@email.com" id="cta-email" />
-      <button class="btn-gold" onclick="openModalFromEmail()">Get started →</button>
-    </div>
-    <p class="cta-note">No commitment. First video delivered in 48 hours.</p>
-  </div>
-</section>
-
-<!-- ─── FOOTER ─── -->
-<footer>
-  <a href="#" class="footer-logo">Homie<span>.</span></a>
-  <div class="footer-links">
-    <a href="#how">How it works</a>
-    <a href="#videos">Our Work</a>
-    <a href="#pricing">Pricing</a>
-    <a href="#clients">Clients</a>
-    <a href="#faq">FAQ</a>
-    <a href="#" onclick="openModal()">Contact</a>
-  </div>
-  <div class="footer-copy">© 2025 Homie. All rights reserved.</div>
-</footer>
-
-<!-- ─── MODAL ─── -->
-<div class="modal-overlay" id="modal" onclick="closeModalOutside(event)">
-  <div class="modal-box">
-    <button class="modal-close" onclick="closeModal()">✕</button>
-    <h3>Let's make your reel.</h3>
-    <p>Tell us about your property and we'll get back to you within a few hours with everything you need to get started.</p>
-    <div class="modal-field">
-      <label>YOUR NAME</label>
-      <input type="text" placeholder="Sarah Johnson" />
-    </div>
-    <div class="modal-field">
-      <label>EMAIL</label>
-      <input type="email" placeholder="sarah@realty.com" id="modal-email" />
-    </div>
-    <div class="modal-field">
-      <label>PHONE (OPTIONAL)</label>
-      <input type="tel" placeholder="+1 (555) 000-0000" />
-    </div>
-    <div class="modal-field">
-      <label>PLAN INTERESTED IN</label>
-      <select id="modal-plan">
-        <option>Video Reel – $250</option>
-        <option>Property Tour – $350</option>
-        <option>Bundle – $500</option>
-        <option>Not sure yet</option>
-      </select>
-    </div>
-    <div class="modal-field">
-      <label>PROPERTY ADDRESS OR NOTES</label>
-      <textarea placeholder="123 Sunset Blvd, Los Angeles, CA 90028 · 4 bed, 3 bath, $1.2M"></textarea>
-    </div>
-    <button class="modal-submit" onclick="submitModal()">Send my request →</button>
-  </div>
-</div>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
+
 </html>
