@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Homie — AI Video Production for Real Estate</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
@@ -17,7 +18,9 @@
 
   <!-- ─── NAV ─── -->
   <nav id="navbar">
-    <a href="#" class="nav-logo">Homie<span>.</span></a>
+    <a href="#" class="nav-logo">
+      <img src="assets/logo_black.png" alt="Homie" height="40" />
+    </a>
     <ul class="nav-links">
       <li><a href="#how">How it works</a></li>
       <li><a href="#videos">Our Work</a></li>
@@ -32,61 +35,45 @@
   </nav>
 
   <!-- ─── HERO ─── -->
-  <section id="hero">
-    <div class="hero-content">
-      <div class="hero-tag">
-        <span class="dot"></span>
-        AI-powered real estate video production
+  <section id="hero" style="background-image: url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1800&auto=format&fit=crop'); background-size: cover; background-position: center;">
+  <div class="hero-content">
+    <div class="hero-tag">
+      <span class="dot"></span>
+      AI-powered real estate video production
+    </div>
+    <div class="hero-pill">✦ Delivered in 48h</div>
+    <h1 class="hero-h1">
+      Sell homes faster<br>with <em>cinematic</em><br>video content.
+    </h1>
+    <p class="hero-sub">
+      Homie creates stunning property reels and AI video tours that make listings stand out. Built for realtors who want to close deals, not edit videos.
+    </p>
+    <div class="hero-btns">
+      <a href="#" class="btn-primary" onclick="openModal()">
+        Get your first reel
+        <span>→</span>
+      </a>
+      <a href="#videos" class="btn-secondary">
+        <span class="play-icon">▶</span>
+        See our work
+      </a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">300+</div>
+        <div class="hero-stat-label">Reels produced</div>
       </div>
-      <h1 class="hero-h1">
-        Sell homes faster<br>with <em>cinematic</em><br>video content.
-      </h1>
-      <p class="hero-sub">
-        Homie creates stunning property reels and AI video tours that make listings stand out. Built for realtors who
-        want to close deals, not edit videos.
-      </p>
-      <div class="hero-btns">
-        <a href="#" class="btn-primary" onclick="openModal()">
-          Get your first reel
-          <span>→</span>
-        </a>
-        <a href="#videos" class="btn-secondary">
-          <span class="play-icon">▶</span>
-          See our work
-        </a>
+      <div>
+        <div class="hero-stat-num">48h</div>
+        <div class="hero-stat-label">Delivery time</div>
       </div>
-      <div class="hero-stats">
-        <div>
-          <div class="hero-stat-num">300+</div>
-          <div class="hero-stat-label">Reels produced</div>
-        </div>
-        <div>
-          <div class="hero-stat-num">48h</div>
-          <div class="hero-stat-label">Delivery time</div>
-        </div>
-        <div>
-          <div class="hero-stat-num">98%</div>
-          <div class="hero-stat-label">Client satisfaction</div>
-        </div>
+      <div>
+        <div class="hero-stat-num">98%</div>
+        <div class="hero-stat-label">Client satisfaction</div>
       </div>
     </div>
-
-    <div class="hero-visual">
-      <div class="hero-img-wrap">
-        <!-- Replace src with a real property hero image -->
-        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop"
-          alt="Luxury property" />
-        <div class="hero-pill">✦ Delivered in 48h</div>
-        <div class="hero-badge">
-          <div class="hero-badge-icon">🎬</div>
-          <div class="hero-badge-text">
-            <strong>Property Tour</strong>
-            Malibu, CA · 4 bed · $2.4M
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
   <!-- ─── TRUST BAR ─── -->
   <div class="trust-bar">
@@ -145,55 +132,47 @@
       <div class="carousel">
         <div class="video-card">
           <div class="video-thumb video-thumb-wide">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&auto=format&fit=crop"
-              alt="Property tour" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1183186516?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Property Tour</span>
-            <h4>Modern Estate — Beverly Hills, CA</h4>
-            <p>5 bed · 4 bath · $4.2M</p>
+            <h4>Hunters Meadow Ln, Houston</h4>
           </div>
         </div>
         <div class="video-card">
           <div class="video-thumb video-thumb-wide">
-            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=900&auto=format&fit=crop"
-              alt="Property tour" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1187183042?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Property Tour</span>
-            <h4>Luxury Villa — Malibu, CA</h4>
-            <p>4 bed · 3 bath · $2.4M</p>
-          </div>
-        </div>
-        <div class="video-card">
-          <iframe src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-          </iframe>
-          <div class="video-info">
-            <span class="video-type">Property Tour</span>
-            <h4>Penthouse — Miami, FL</h4>
-            <p>2 bed · 2 bath · $1.1M</p>
+            <h4>Prairie Pl, Sugar Land</h4>
           </div>
         </div>
         <div class="video-card">
           <div class="video-thumb video-thumb-wide">
-            <img src="https://www.youtube.com/embed/3H6Evu2hPpE?si=rkm4ZBmpq-5B08FW" alt="Property tour" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1187184863?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Property Tour</span>
-            <h4>Cozy Bungalow — Austin, TX</h4>
-            <p>3 bed · 2 bath · $680K</p>
+            <h4>Westerham, Weston Lakes</h4>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb video-thumb-wide">
+            <iframe src="https://player.vimeo.com/video/1190625140?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Spring Side Ct, FULSHEAR</h4>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb video-thumb-wide">
+            <iframe src="https://player.vimeo.com/video/1192865134?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Property Tour</span>
+            <h4>Landry Blvd, SPRING</h4>
           </div>
         </div>
       </div>
@@ -205,54 +184,59 @@
       <div class="carousel carousel-reels">
         <div class="video-card">
           <div class="video-thumb">
-            <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=500&auto=format&fit=crop"
-              alt="Reel" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1193329901?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Video Reel</span>
-            <h4>Cozy Bungalow · Austin, TX</h4>
-            <p>3 bed · 2 bath · $680K</p>
-          </div>
-        </div>
-        <div class="video-card">
-          <iframe src="https://www.youtube.com/embed/aqz-KE-bpKQ" allowfullscreen></iframe>
-          <div class="video-info">
-            <span class="video-type">Video Reel</span>
-            <h4>Penthouse · Miami, FL</h4>
-            <p>2 bed · 2 bath · $1.1M</p>
+            <h4>Parkside Passage Dr, Fulshear</h4>
           </div>
         </div>
         <div class="video-card">
           <div class="video-thumb">
-            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=500&auto=format&fit=crop"
-              alt="Reel" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1189143781?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Video Reel</span>
-            <h4>Modern Estate · Beverly Hills, CA</h4>
-            <p>5 bed · 4 bath · $4.2M</p>
+            <h4>Eagle Peak Court, Katy</h4>
           </div>
         </div>
         <div class="video-card">
           <div class="video-thumb">
-            <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&auto=format&fit=crop"
-              alt="Reel" />
-            <div class="video-overlay">
-              <div class="play-btn">▶</div>
-            </div>
+            <iframe src="https://player.vimeo.com/video/1175618871?title=0&byline=0&portrait=0" allowfullscreen></iframe>
           </div>
           <div class="video-info">
             <span class="video-type">Video Reel</span>
-            <h4>Luxury Villa · Malibu, CA</h4>
-            <p>4 bed · 3 bath · $2.4M</p>
+            <h4>Terrawren Ln, Spring</h4>
           </div>
         </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <iframe src="https://player.vimeo.com/video/1175781699?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Shady Oak Drive, Fulshear</h4>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <iframe src="https://player.vimeo.com/video/1187919130?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Fountainview Dr, MONTGOMERY</h4>
+          </div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <iframe src="https://player.vimeo.com/video/1175780880?title=0&byline=0&portrait=0" allowfullscreen></iframe>
+          </div>
+          <div class="video-info">
+            <span class="video-type">Video Reel</span>
+            <h4>Gold Finch Pl, FULSHEAR</h4>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -353,56 +337,6 @@
     </p>
   </section>
 
-  <!-- ─── CLIENTS ─── -->
-  <!--<section id="clients">
-  <div class="clients-header">
-    <div class="section-label">Testimonials</div>
-    <h2 class="section-title">Realtors love Homie.</h2>
-    <p class="section-sub" style="margin: 0 auto; text-align:center;">Join hundreds of agents who are closing more deals with better video content.</p>
-  </div>
-
-  <div class="testimonials-grid">
-    <div class="testimonial-card fade-up">
-      <span class="quote-mark">"</span>
-      <div class="stars">★★★★★</div>
-      <p class="testimonial-text">I listed a property on a Friday, posted the Homie reel on Saturday, and had 3 offers by Monday. The video quality blew my clients away — they thought I hired a Hollywood crew.</p>
-      <div class="testimonial-author">
-        <div class="author-avatar" style="background:#2d6a4f">JR</div>
-        <div>
-          <div class="author-name">Jessica R.</div>
-          <div class="author-role">Realtor · Compass · Beverly Hills, CA</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-card fade-up" style="transition-delay:0.1s">
-      <span class="quote-mark">"</span>
-      <div class="stars">★★★★★</div>
-      <p class="testimonial-text">As a solo agent, I can't afford a full video production team. Homie gives me the same quality at a fraction of the cost. My listings now look better than those from the big brokerages.</p>
-      <div class="testimonial-author">
-        <div class="author-avatar" style="background:#1d3557">MT</div>
-        <div>
-          <div class="author-name">Marcus T.</div>
-          <div class="author-role">Independent Realtor · Austin, TX</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="testimonial-card fade-up" style="transition-delay:0.2s">
-      <span class="quote-mark">"</span>
-      <div class="stars">★★★★★</div>
-      <p class="testimonial-text">The bundle is a no-brainer for my luxury listings. Both the property tour and the social reel look stunning. I've made the $500 back 100x over in commission on my first deal using Homie.</p>
-      <div class="testimonial-author">
-        <div class="author-avatar" style="background:#9d4edd">SL</div>
-        <div>
-          <div class="author-name">Sofia L.</div>
-          <div class="author-role">Luxury Agent · Douglas Elliman · Miami, FL</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>-->
-
   <!-- ─── FAQ ─── -->
   <section id="faq">
     <div class="faq-inner">
@@ -482,18 +416,18 @@
         <input type="email" class="cta-input" placeholder="your@email.com" id="cta-email" />
         <button class="btn-gold" onclick="openModalFromEmail()">Get started →</button>
       </div>
-      <p class="cta-note">No commitment. First video delivered in 48 hours.</p>
     </div>
   </section>
 
   <!-- ─── FOOTER ─── -->
   <footer>
-    <a href="#" class="footer-logo">Homie<span>.</span></a>
+    <a href="#" class="nav-logo">
+      <img src="assets/logo_white.png" alt="Homie" height="40" />
+    </a>
     <div class="footer-links">
       <a href="#how">How it works</a>
       <a href="#videos">Our Work</a>
       <a href="#pricing">Pricing</a>
-      <!--<a href="#clients">Clients</a>-->
       <a href="#faq">FAQ</a>
       <a href="#" onclick="openModal()">Contact</a>
     </div>
