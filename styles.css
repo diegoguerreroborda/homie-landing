@@ -437,7 +437,7 @@ nav.scrolled { box-shadow: 0 2px 20px rgba(0,0,0,0.06); }
   flex: 0 0 220px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 375px) {
   .carousel .video-card { flex: 0 0 80vw; }
   .carousel-reels .video-card { flex: 0 0 60vw; }
 }
